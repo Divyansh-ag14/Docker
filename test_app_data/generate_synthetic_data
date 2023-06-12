@@ -1,0 +1,25 @@
+import numpy as np
+import csv
+
+# Set the range for test_score and interview_score (1-10)
+test_score_range = (1, 10)
+interview_score_range = (1, 10)
+
+# Set the range for experience and salary (you can adjust these ranges as needed)
+experience_range = (0, 15)
+salary_range = (40000, 90000)
+
+# Generate synthetic data
+experience = np.random.randint(experience_range[0], experience_range[1] + 1, size=1000)
+test_score = np.random.randint(test_score_range[0], test_score_range[1] + 1, size=1000)
+interview_score = np.random.randint(interview_score_range[0], interview_score_range[1] + 1, size=1000)
+salary = np.random.randint(salary_range[0], salary_range[1] + 1, size=1000)
+
+# Combine the columns into a single numpy array
+data = np.column_stack((experience, test_score, interview_score, salary))
+
+# Save the data to a CSV file
+with open('synthetic_data.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(['experience', 'test_score', 'interview_score', 'salary'])  # Write the header
+    writer.writerows(data)
