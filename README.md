@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ### Start the Server
 ```bash
-python run appp.py
+python run app.py
 ```
 
 ### Dockerize the app
