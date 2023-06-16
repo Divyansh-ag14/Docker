@@ -27,5 +27,5 @@ CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 
 2. Create an image
 ```bash
-docker build -t testapp
+docker build -t testapp . 
 ```
