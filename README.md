@@ -10,7 +10,7 @@ To run the app, make sure to include the defined dependencies.
 pip install -r requirements.txt
 ```
 
-### Start Server
+### Start the Server
 ```bash
 python run appp.py
 ```
