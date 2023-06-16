@@ -3,7 +3,7 @@
 Test App: simple flask app to predict salary of an employee.
 
 
-## Installation
+### Installation
 
 To run the app, make sure to include the defined dependencies.
 ```bash
