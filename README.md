@@ -14,3 +14,13 @@ pip install -r requirements.txt
 ```bash
 python run appp.py
 ```
+
+### Dockerize the app
+1. Create a Dockerfile 
+```bash
+FROM python:3.11
+COPY . .
+RUN pip install -r requirements.txt
+EXPOSE 80
+CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
+```
