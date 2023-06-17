@@ -17,7 +17,9 @@ python run app.py
 
 ### Dockerize the app
 To download Docker [click here](https://www.docker.com/products/docker-desktop/)
-1. Create a Dockerfile 
+
+1. Create a Dockerfile (make sure you have docker installed)
+    In your code base create a file named "Dockerfile"
 ```bash
 FROM python:3.11
 COPY . .
