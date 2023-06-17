@@ -28,7 +28,8 @@ EXPOSE 80
 CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 ```
 
-2. Create an image
+2. Create an image (make sure you are in your project directory)<br>
+Write the below command on terminal
 ```bash
 docker build -t testapp . 
 ```
