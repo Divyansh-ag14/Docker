@@ -29,3 +29,8 @@ CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 ```bash
 docker build -t testapp . 
 ```
+
+3. Run the container
+```bash
+docker run -p 80:80 testapp
+```
