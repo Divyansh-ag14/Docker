@@ -27,17 +27,18 @@ RUN pip install -r requirements.txt
 EXPOSE 80
 CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 ```
-2. Check the newly built image
-```bash
-docker images
-```
-<img src = "./image.png">
 
-3. Create an image (make sure you are in your project directory)<br>
+2. Create an image (make sure you are in your project directory)<br>
 Write the below command on terminal
 ```bash
 docker build -t testapp . 
 ```
+
+3. Check the newly built image
+```bash
+docker images
+```
+<img src = "./image.png">
 
 4. Run the container
 ```bash
