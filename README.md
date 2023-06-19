@@ -50,7 +50,7 @@ first, tag the image according to the naming convention
 ```bash
 docker tag testapp YOUR-USER-NAME/testapp
 ```
-Now, push it to docker hub
+<br>Now, push it to docker hub
 ```bash
 docker push YOUR-USER-NAME/testapp
 ```
