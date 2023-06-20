@@ -40,7 +40,7 @@ docker images
 ```
 <img src = "./image.png">
 
-4. Run the container
+4. Run the container<br>
 ```bash
 docker run -p 80:80 testapp
 ```
