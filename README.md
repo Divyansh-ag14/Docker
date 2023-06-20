@@ -51,7 +51,7 @@ docker run -p 80:80 testapp
 docker tag testapp YOUR-USER-NAME/testapp
 ```
 
-<br>2. Now, push it to docker hub
+2. Now, push it to docker hub
 
 ```bash
 docker push YOUR-USER-NAME/testapp
