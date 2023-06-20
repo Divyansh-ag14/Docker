@@ -40,12 +40,12 @@ docker images
 ```
 <img src = "./image.png">
 
-4. Run the container<br>
+4. Run the container
 ```bash
 docker run -p 80:80 testapp
 ```
 
-5. Push the image to docker hub<br>
+<br>5. Push the image to docker hub<br>
 a. first, tag the image according to the naming convention<br>
 ```bash
 docker tag testapp YOUR-USER-NAME/testapp
