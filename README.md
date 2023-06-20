@@ -51,7 +51,7 @@ a. first, tag the image according to the naming convention<br>
 docker tag testapp YOUR-USER-NAME/testapp
 ```
 
-b. Now, push it to docker hub
+<br>b. Now, push it to docker hub
 
 ```bash
 docker push YOUR-USER-NAME/testapp
