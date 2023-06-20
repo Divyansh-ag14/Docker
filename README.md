@@ -45,7 +45,7 @@ docker images
 docker run -p 80:80 testapp
 ```
 
-<br>5. Push the image to docker hub<br>
+<br>5. Push the image to docker hub
 a. first, tag the image according to the naming convention<br>
 ```bash
 docker tag testapp YOUR-USER-NAME/testapp
