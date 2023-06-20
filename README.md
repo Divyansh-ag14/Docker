@@ -34,7 +34,7 @@ Write the below command on terminal
 docker build -t testapp . 
 ```
 
-3. Check the newly built image
+<br>3. Check the newly built image
 ```bash
 docker images
 ```
