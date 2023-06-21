@@ -34,7 +34,8 @@ EXPOSE 80
 (Expose port 80 on the container, allowing external access to our application.)
 
 CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
-
+(Set the command to be executed when the container starts. Here, we use Flask to run our application
+ with the specified host and port, allowing it to be accessed externally.)
 
 ```
 
