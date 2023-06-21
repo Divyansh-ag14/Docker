@@ -22,10 +22,20 @@ To download Docker [click here](https://www.docker.com/products/docker-desktop/)
 In your code base create a file named "Dockerfile"
 ```bash
 FROM python:3.11
+(Use the official Python 3.11 base image as the starting point for our container.)
+
 COPY . .
+
+
 RUN pip install -r requirements.txt
+
+
 EXPOSE 80
+
+
 CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
+
+
 ```
 
 <br>2. Create an image (make sure you are in your project directory)<br>
