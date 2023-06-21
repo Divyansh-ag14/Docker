@@ -31,7 +31,7 @@ RUN pip install -r requirements.txt
 (Install the Python dependencies specified in the requirements.txt file.)
 
 EXPOSE 80
-
+(Expose port 80 on the container, allowing external access to our application.)
 
 CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 
