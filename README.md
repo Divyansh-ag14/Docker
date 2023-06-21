@@ -25,7 +25,7 @@ FROM python:3.11
 (Use the official Python 3.11 base image as the starting point for our container.)
 
 COPY . .
-
+(Copy the entire current directory into the container.)
 
 RUN pip install -r requirements.txt
 
