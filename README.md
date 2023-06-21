@@ -28,7 +28,7 @@ COPY . .
 (Copy the entire current directory into the container.)
 
 RUN pip install -r requirements.txt
-
+(Install the Python dependencies specified in the requirements.txt file.)
 
 EXPOSE 80
 
