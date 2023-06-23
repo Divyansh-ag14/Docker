@@ -39,6 +39,10 @@ CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 
 ```
 
+<br>More explanation for the above file:
+FROM python:3.11
+This line specifies the base image for the Docker container. In this case, it is the Python 3.11 image. This means the container will have Python 3.11 installed as the base environment. 
+
 <br>2. Create an image (make sure you are in your project directory)<br>
 Write the below command on terminal
 ```bash
