@@ -46,6 +46,9 @@ CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 2. COPY . .
 <br>This line copies the contents of the current directory (the directory where the Dockerfile is located) to the current working directory of the container. The . represents the current directory.
 
+3. RUN pip install -r requirements.txt
+<br>This line executes a command during the build process. It installs the dependencies listed in the requirements.txt file using pip, the Python package installer. The requirements.txt file typically contains a list of required Python packages and their versions.
+
 <br>2. Create an image (make sure you are in your project directory)<br>
 Write the below command on terminal
 ```bash
