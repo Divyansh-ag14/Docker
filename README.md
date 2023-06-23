@@ -55,7 +55,7 @@ This line informs Docker that the container will listen on port 80 at runtime. I
 5. CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 This line specifies the command that will be executed when the container is run. It launches the Flask application using the flask run command with additional options. It sets the host to 0.0.0.0 to listen on all available network interfaces and the port to 80.
 
-<br>2. Create an image (make sure you are in your project directory)
+<br>2. Create an image (make sure you are in your project directory)<br>
 Write the below command on terminal
 ```bash
 docker build -t testapp . 
