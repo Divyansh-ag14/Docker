@@ -50,7 +50,7 @@ CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 <br>This line executes a command during the build process. It installs the dependencies listed in the requirements.txt file using pip, the Python package installer. The requirements.txt file typically contains a list of required Python packages and their versions.
 
 4. EXPOSE 80
-This line informs Docker that the container will listen on port 80 at runtime. It exposes port 80 to allow communication with the container's processes using that port. However, it doesn't actually publish the port to the host machine.
+<br>This line informs Docker that the container will listen on port 80 at runtime. It exposes port 80 to allow communication with the container's processes using that port. However, it doesn't actually publish the port to the host machine.
 
 5. CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 This line specifies the command that will be executed when the container is run. It launches the Flask application using the flask run command with additional options. It sets the host to 0.0.0.0 to listen on all available network interfaces and the port to 80.
