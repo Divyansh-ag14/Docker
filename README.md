@@ -43,6 +43,9 @@ CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
 1. FROM python:3.11
 <br>This line specifies the base image for the Docker container. In this case, it is the Python 3.11 image. This means the container will have Python 3.11 installed as the base environment. 
 
+2. COPY . .
+<br>This line copies the contents of the current directory (the directory where the Dockerfile is located) to the current working directory of the container. The . represents the current directory.
+
 <br>2. Create an image (make sure you are in your project directory)<br>
 Write the below command on terminal
 ```bash
